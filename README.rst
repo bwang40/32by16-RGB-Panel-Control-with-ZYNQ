@@ -30,12 +30,16 @@ The interface of the system is done through the FPGA I/Os. The div[7:0] is conne
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/CONNECTION.png
    :scale: 25
    
+Two BRAM Generators are used to generate the memory of the led panel.
+   
+.. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/51518311165__E548FD17-28B7-4724-BA46-617B42833E0A.JPG
+   :scale: 25
 
 
 Write Software in XSDK
 ================================
 
-images
+Testing Cases
 =======================
    
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/Rainbow-Whale-Logo.jpg
@@ -50,8 +54,7 @@ images
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/IMG_4737.JPG
    :scale: 25
 
-.. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/51518311165__E548FD17-28B7-4724-BA46-617B42833E0A.JPG
-   :scale: 25
+
 
 
 
