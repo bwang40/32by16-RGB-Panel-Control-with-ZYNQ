@@ -10,7 +10,7 @@ RGB LED matrix panels are mostly used to make video walls. Due to its design whi
 
 LED Panel Design
 =======================
-This `32by16 LED Panel <https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/powering/>`_ is bought from ADAFRUIT
+This `32by16 LED Panel <https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/powering/>`_ is bought from ADAFRUIT. 
 
 Top Level FPGA Block Diagram
 ================================
