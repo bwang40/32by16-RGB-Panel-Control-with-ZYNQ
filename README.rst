@@ -14,11 +14,18 @@ This `32by16 LED Panel <https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/po
 
 Top Level FPGA Block Diagram
 ================================
+
+The following diagram is the diagram plotted in VIVADO ip-integrator. 
+
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/blockdiagram.PNG
    :scale: 25
    
+To get a better understand of the system diagram. I plotted the following system diagram in Microsoft Visio.
+   
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/visioDIAGRAM.png
    :scale: 25
+   
+The interface of the system is done through the FPGA I/Os. The div[7:0] is connected to the switches on the ZedBoard.
    
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/CONNECTION.png
    :scale: 25
