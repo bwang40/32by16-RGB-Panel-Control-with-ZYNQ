@@ -42,6 +42,8 @@ Write Software in XSDK
 Testing Cases
 =======================
    
+A MATLAB code is written to read RGB image and generate the input figure for the LED panel. In the MATLAB, I read the image file using imread function and manually decimate the figure to 32by16 pixels. The generated data is feed to the code written in XSDK. A software running on ARM processor will take the data and transmit it to BRAM thorugh BRAM controller using AXI-Lite interface.
+
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/Rainbow-Whale-Logo.jpg
    :scale: 25
    
