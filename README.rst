@@ -16,6 +16,10 @@ Top Level FPGA Block Diagram
 ================================
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/blockdiagram.PNG
    :scale: 25
+   
+.. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/DIAGRAM.png
+   :scale: 25
+
 
 Write Software in XSDK
 ================================
