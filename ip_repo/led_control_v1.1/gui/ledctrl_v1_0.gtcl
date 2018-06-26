@@ -1,0 +1,3 @@
+# This file is automatically written.  Do not modify.
+proc gen_USERPARAMETER_DATA_WIDTH_VALUE {PIXEL_DEPTH } {expr $PIXEL_DEPTH * 6}
+proc gen_USERPARAMETER_IMG_WIDTH_VALUE {PANEL_WIDTH NUM_PANELS } {expr $PANEL_WIDTH*$NUM_PANELS}

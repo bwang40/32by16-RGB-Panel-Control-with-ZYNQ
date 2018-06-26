@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Apr 29 11:39:41 2017
+# Process ID: 8000
+# Current directory: D:/Workspace/Vivado201701/RGB_Led_pannel_axi_lite/iprepo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5144 D:\Workspace\Vivado201701\RGB_Led_pannel_axi_lite\iprepo\tmp_edit_project.xpr
+# Log file: D:/Workspace/Vivado201701/RGB_Led_pannel_axi_lite/iprepo/vivado.log
+# Journal file: D:/Workspace/Vivado201701/RGB_Led_pannel_axi_lite/iprepo\vivado.jou
+#-----------------------------------------------------------
+start_gui
