@@ -77,3 +77,7 @@ If you have any issue running the tcl file, please let me know.
 
 References
 =======================
+
+https://learn.adafruit.com/32x16-32x32-rgb-led-matrix?view=all
+
+https://bikerglen.com/projects/lighting/led-panel-1up/
