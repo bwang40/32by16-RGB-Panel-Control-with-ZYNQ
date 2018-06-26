@@ -30,12 +30,12 @@ The following diagram is the diagram plotted in VIVADO ip-integrator. VIVADO ip-
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/blockdiagram.PNG
    :scale: 25
    
-To get a better understand of the system diagram. I plotted the following system diagram in Microsoft Visio.
+To get a better understand of the system diagram. I plotted the following system diagram in Microsoft Visio. In ZYNQ SoC, the ARM processor is the main controller of everything. It controls the FPGA devices through AXI-lite interface. It is a type of BUS protocol from ARM community. Two BRAMs are used to generate the higher and lower section of the memory for the LED panel. BRAM controllers are used to allow ARM processor to take full controll of the LED panel. DIV[7:0] are used to controll the refresh rate of the led panel and is connected to the switches on the ZedBoard. Rst is implemented by using AXI-GPIO ipcore from XILINX. This allows for software reset from ARM processor.
    
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/visioDIAGRAM.png
    :scale: 25
    
-The interface of the system is done through the FPGA I/Os. The div[7:0] is connected to the switches on the ZedBoard.
+The interface of the system is done through the FPGA I/Os. The controll signals are connected from the LED panel to the PMOD connectors on the ZedBoard. Details can be found in teh contraint.xdc file. The div[7:0] is connected to the switches on the ZedBoard.
    
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/CONNECTION.png
    :scale: 25
