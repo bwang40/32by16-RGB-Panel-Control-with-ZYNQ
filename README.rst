@@ -48,6 +48,8 @@ Two BRAM Generators are used to generate the upper half and lower half memory of
 
 Write Software in XSDK
 ================================
+A simple C code for ARM processor is written to test the circuit. This software is included in the foler XSDK_SW.
+
 
 Testing Cases
 =======================
