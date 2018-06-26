@@ -10,8 +10,8 @@ RGB LED matrix panels are mostly used to make video walls. Due to its circuit de
 
 This is a one weekend hobby project I have done in Spring 2017 and `ledctrl.vhd <https://github.com/DuinoPilot/rgbmatrix-fpga/blob/master/vhdl/ledctrl.vhd/>`_ code is referenced from ADAFRUIT.
 
-LED Panel Design
-=======================
+LED Panel Design & FPGA code to drive it
+===============================================
 This `32by16 LED Panel <https://www.adafruit.com/product/420/>`_ is bought from ADAFRUIT. 
 
 From Adafruit, there is a `tutorial <https://learn.adafruit.com/32x16-32x32-rgb-led-matrix?view=all/>`_ explaining how it works and how to drive it with arduino or raspberry pi.
