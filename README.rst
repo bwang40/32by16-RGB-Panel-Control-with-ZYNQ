@@ -56,7 +56,9 @@ A MATLAB code is written to read RGB image and generate the input figure for the
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/IMG_4737.JPG
    :scale: 25
 
-
+To duplicate the design
+==============================
+It too many files in the VIVADO project, so I didn't updoad it in the github. Instead, I generated a tcl file: `system_diagram_gen.tcl <https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/system_diagram_gen.tcl>`_ to help you build your own VIVADO project. Before you run this tcl file, you need to modify the path of the project you want to put your project and the path for the ipcore. After building the block diagram, you will have to link the constaint file manually since I didn't include that part in my tcl file. if you have any issue running the tcl file, please let me know.
 
 
 
