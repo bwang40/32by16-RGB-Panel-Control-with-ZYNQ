@@ -14,7 +14,7 @@ LED Panel Design
 =======================
 This `32by16 LED Panel <https://www.adafruit.com/product/420/>`_ is bought from ADAFRUIT. 
 
-From Adafruit, there is a `tutorial <https://learn.adafruit.com/32x16-32x32-rgb-led-matrix?view=all/>_` explaining how it works and how to drive it with arduino or raspberry pi.
+From Adafruit, there is a `tutorial <https://learn.adafruit.com/32x16-32x32-rgb-led-matrix?view=all/>`_ explaining how it works and how to drive it with arduino or raspberry pi.
 
 There is a very nice tutorial exlaining about how LED panel works and how LED controller on FPGA works.
 https://bikerglen.com/projects/lighting/led-panel-1up/
