@@ -53,12 +53,12 @@ A simple C code for ARM processor is written to test the circuit. This software 
 
 Testing Cases
 =======================
-   
-A MATLAB code is written to read RGB image and generate the input figure for the LED panel. In the MATLAB, I read the image file using imread function and manually decimate the figure to 32by16 pixels. The generated data is feed to the code written in XSDK. A software running on ARM processor will take the data and transmit it to BRAM thorugh BRAM controller using AXI-Lite interface.
+The first test case I wrote here is to use a for loop to write incrementing numbers to the BRAM memoery. The code split the screen into 4 sections and displaying 4 different colors(RGBW) in different intensity. The code is commented in the C code. 
 
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/IMG_4739.JPG
    :scale: 25
 
+A MATLAB code is written to read RGB image and generate the input figure for the LED panel. In the MATLAB, I read the image file using imread function and manually decimate the figure to 32by16 pixels. The generated data is feed to the code written in XSDK. A software running on ARM processor will take the data and transmit it to BRAM thorugh BRAM controller using AXI-Lite interface. The resolution of 32x16 is not enough for displaying this whale, which make the final result looks kind of wield.
 
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/Rainbow-Whale-Logo.jpg
    :scale: 25
