@@ -58,7 +58,9 @@ A MATLAB code is written to read RGB image and generate the input figure for the
 
 To duplicate the design
 ==============================
-It too many files in the VIVADO project, so I didn't updoad it in the github. Instead, I generated a tcl file: `system_diagram_gen.tcl <https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/system_diagram_gen.tcl>`_ to help you build your own VIVADO project. Before you run this tcl file, you need to modify the path of the project you want to put your project and the path for the ipcore. After building the block diagram, you will have to link the constaint file manually since I didn't include that part in my tcl file. if you have any issue running the tcl file, please let me know.
+There are too many files in the VIVADO project, so I didn't updoad it in the github. Instead, I generated a tcl file: `system_diagram_gen.tcl <https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/system_diagram_gen.tcl>`_ to help you build your own VIVADO project. Before you run this tcl file, you need to modify the path of the project you want to put your project and the path for the ipcore as well. After building the block diagram, you will have to link the constaint file manually since I didn't include that part in my tcl file. The software on the ARM processor is included in the folder 'XSDK_SW <https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/XSDK_SW/sw_ctrl.c>'_ The image here should be a whale above.
+
+If you have any issue running the tcl file, please let me know.
 
 
 
