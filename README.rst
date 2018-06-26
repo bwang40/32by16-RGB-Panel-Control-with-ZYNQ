@@ -19,10 +19,13 @@ From Adafruit, there is a `tutorial <https://learn.adafruit.com/32x16-32x32-rgb-
 There is a very nice tutorial exlaining about how LED panel works and how LED controller on FPGA works.
 https://bikerglen.com/projects/lighting/led-panel-1up/
 
+Since these tutorials have described it very clearly, I ll avoid re-presenting these tutorials.
+
+
 Top Level FPGA Block Diagram
 ================================
 
-The following diagram is the diagram plotted in VIVADO ip-integrator. 
+The following diagram is the diagram plotted in VIVADO ip-integrator. VIVADO ip-integrator is my favorate tool for system design, especially when dealing with ZYNQ SoC similar systems. If you are working with ZYNQ SoC, there is no other option for designing system other than VIVADO ip-integrator since ISE is nolonger supported. With VIVADO ip-integrator, you can design your system with a nice GUI as it shown in the following figure. With pure FPGA system design, VIVADO ip-integrator will also help to make your design clean and easy to understand.
 
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/blockdiagram.PNG
    :scale: 25
