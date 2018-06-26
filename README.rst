@@ -50,9 +50,6 @@ A MATLAB code is written to read RGB image and generate the input figure for the
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/IMG_4739.JPG
    :scale: 25
 
-.. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/IMG_4738.JPGG
-   :scale: 25
-
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/IMG_4737.JPG
    :scale: 25
 
