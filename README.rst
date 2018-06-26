@@ -8,7 +8,7 @@ Introduction
 =======================
 RGB LED matrix panels are mostly used to make video walls. Due to its circuit design, one will need use propper controlled PWM wave for displaying full color on it. Micro Controllers like ARDUINO cannot affort the computation power to drive such type of LED panel especially when the amount of LEDs increase. With the FGPA on the ZYNQ, logic encoded on FPGA schematic can read 24 bit RGB data from BRAM and drive the LED panel with PWM wave. ARM processor on the ZYNQ can control the image displayed by changing the BRAM content using an AXI-lite BRAM controller. 
 
-This is a hobby project and `ledctrl.vhd <https://github.com/DuinoPilot/rgbmatrix-fpga/blob/master/vhdl/ledctrl.vhd/>`_ code is referenced from ADAFRUIT.
+This is a one weekend hobby project and `ledctrl.vhd <https://github.com/DuinoPilot/rgbmatrix-fpga/blob/master/vhdl/ledctrl.vhd/>`_ code is referenced from ADAFRUIT.
 
 LED Panel Design
 =======================
