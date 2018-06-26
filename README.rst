@@ -32,7 +32,7 @@ The interface of the system is done through the FPGA I/Os. The div[7:0] is conne
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/CONNECTION.png
    :scale: 25
    
-Two BRAM Generators are used to generate the memory of the led panel. In the VIVADO ip-integrator, I prefilled the upper BRAM with data 0x00ff0000, and the lower BRAM with data 0x000000ff. Once I program the FPGA on the Zynq and PS7_INIT.TCL is excecuted to start give clk to the FPGA. The upper half of the LED panel will be filled with color blue and the lower half of the LED panel will be filled with red. I ll further talk about how to change the BRAM though ARM processors on ZYNQ.
+Two BRAM Generators are used to generate the upper half and lower half memory of the LED panel. In the VIVADO ip-integrator, I pre-filled the upper BRAM with data 0x00ff0000, and the lower BRAM with data 0x000000ff. Once I program the FPGA on the Zynq and PS7_INIT.TCL is excecuted to start giving clk to the FPGA. The upper half of the LED panel will be filled with color blue and the lower half of the LED panel will be filled with green. I ll further talk about how to change the BRAM though ARM processors on ZYNQ.
    
 .. image:: https://github.com/bwang40/32by16-RGB-Panel-Control-with-ZYNQ/blob/master/images/51518311165__E548FD17-28B7-4724-BA46-617B42833E0A.JPG
    :scale: 25
